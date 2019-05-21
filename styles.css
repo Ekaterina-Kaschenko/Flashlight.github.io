@@ -1,0 +1,12 @@
+.wrapper {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 12px 24px;
+}
+
+.button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}
