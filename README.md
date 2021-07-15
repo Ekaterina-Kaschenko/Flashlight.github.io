@@ -3,9 +3,9 @@
 Web-ui-components include predefined button styles, each serving its own semantic purpose, with a few extras thrown in for more control.
 
 ## Usage
-<Button className="button--default" type="button" onClick={onClickHandler}>
+```<Button className="button--default" type="button" onClick={onClickHandler}>
     <FormattedMessage id="text.translated" defaultMessage="Translated text" />
-</Button>
+</Button>```
 
 
 ## Available classNames for Buttons:
@@ -14,10 +14,13 @@ Web-ui-components include predefined button styles, each serving its own semanti
 
 
 - ```button--default``` (Always grey buttons)
+
+![alt buttons](./buttons.png)
+
+
 - ```button--danger``` (Always red)
 
-
-- ```button--icon``` (button with icon)
+- ```button--icon``` (button with icon, i.e, )
 
 <Button 
   className="button--icon"
