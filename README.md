@@ -27,11 +27,11 @@ Web-ui-components include predefined button styles, each serving its own semanti
 
 
 - ```button--danger``` <Button type="button" style="background: linear-gradient(#A83131, #8d2929); color: #fff; padding: 10px 16px; border-radius: 30px; border: none">
-   Default 
+   Danger 
 </Button>
 
 - ```button--info```
-<Button type="button" style="background: #fff; color: #414042; padding: 10px 16px; border-radius: 3px; border: none; width: 150px;text-align: left">
+<Button type="button" style="background: #E2E2E2; color: #414042; padding: 10px 16px; border-radius: 3px; border: none; width: 150px;text-align: left">
    Default 
 </Button>
 
@@ -40,16 +40,17 @@ Web-ui-components include predefined button styles, each serving its own semanti
 
 - ```button--icon``` <Button 
   style="background-color: #414042;
-    padding: 5px; color: #fff; padding: 8px 12px; border-radius: 3px; border: none">
+    padding: 2px; color: #fff; padding: 8px 12px; border-radius: 3px; border: none">
 <svg style="width: 20px; height: 20px;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="expand" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-expand fa-w-14 fa-2x"><path fill="currentColor" d="M0 180V56c0-13.3 10.7-24 24-24h124c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H64v84c0 6.6-5.4 12-12 12H12c-6.6 0-12-5.4-12-12zM288 44v40c0 6.6 5.4 12 12 12h84v84c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12V56c0-13.3-10.7-24-24-24H300c-6.6 0-12 5.4-12 12zm148 276h-40c-6.6 0-12 5.4-12 12v84h-84c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h124c13.3 0 24-10.7 24-24V332c0-6.6-5.4-12-12-12zM160 468v-40c0-6.6-5.4-12-12-12H64v-84c0-6.6-5.4-12-12-12H12c-6.6 0-12 5.4-12 12v124c0 13.3 10.7 24 24 24h124c6.6 0 12-5.4 12-12z" class=""></path></svg>
 </Button> (note, the `icon` included to `Button` component)
 
-`<Button 
+
+> <Button 
   className="button--icon"
   onClick={() => expandHanler}
   type="button">
-  <FontAwesomeIcon className="expand" icon={Expand} size="2x" />`
-</Button>`
+>>  <FontAwesomeIcon className="expand" icon={Expand} size="2x" />`
+> </Button>`
 
 
 ## Disabled state
